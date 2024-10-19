@@ -1,0 +1,88 @@
+How to Create Linux Virtual Machine
+Basic Linux Commands
+
+
+Windows : RDP (3389)
+Linux : Putty (22)
+
+Installation Putty:
+-------------------
+Putty : To access the Linux Machine
+Putty gen : To change pem to ppk format
+
+Download Putty and PuttyGen:
+----------------------------
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+Putty gen:
+----------
+To change private key from pem (private enhanced mail) to ppk (format)
+
+Basic Linux Commands:
+---------------------
+clear : clear the screen
+sudo su - : switch user to superuser (root)
+ex: yum update -y
+    sudo yum install wget tar unzip git -y
+exit : logout from root user
+ctrl + c : cancel the operation
+ls : list all files and directories (folders)
+ls -al : list all hidden files and  directories (folders)
+
+Directories:
+------------
+mkdir : Make Directory
+ex: mkdir AzureBatch
+
+cd : change directory
+ex: cd AzureBatch
+
+touch : Create a File
+ex: touch AzureClass1
+
+vi : To edit the file
+ex: vi AzureClass1
+i : press i (edit mode)
+write the content
+Esc : Press Escape (exit edit mode)
+:wq : save and quit
+
+
+cat : to view conetent in the file
+ex: cat AzureClass1
+
+rm : remove files
+ex: rm AzureClass1
+
+cp : copy the files
+ex: cp AzureClass1 AzureClass2
+
+cd .. : move backward
+
+rm -rf : Remove directory
+ex: rm -rf AzureBatch
+
+pwd : present working directory
+
+Move 2 steps backward:
+----------------------
+ex: cd a/b/c/d
+cd ../.. : move from d to b
+
+cd (or) cd ~ : from any path to home path
+
+Ubuntu:
+-------
+replace "yum" with "apt"
+
+
+
+
+
+
+
+
+
+
+
+

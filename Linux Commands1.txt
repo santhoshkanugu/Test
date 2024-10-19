@@ -1,0 +1,63 @@
+
+
+-- Resource Group	(AzureTraining)
+  -- Virtual Network	(AzureTraining-Vnet)
+   -- Subnet		(AzureTraining-Subnet)
+    -- Virtual Machine	(LinuxMachine)
+
+
+[Clear]	: Clear the screen
+[sudo su -]	: Switch user(india/etc) to superuser(root)
+ctrl+c	: Cancel the operation
+Exit	: Switch superuser to user
+
+ls	: list
+mkdir	: create a directory/folder
+	Ex- mkdir azure azuretraining
+cd	: to open a directory/folder
+	Ex- cd azure
+touch	: create a file in derctory/folder
+	Ex- touch azureclass1
+vi	: to edit a file
+	Ex- vi azureclass1
+	then press i (Edit mode),
+	then write content
+	then press esc (exit edit mode),
+	then press :wq (save and quit)
+
+cat	: to view the content in the file
+	Ex- cat azureclass1
+
+cp	: copy the 1file (azureclass1) content to another file(azureclass2)
+
+rm	: remove files
+	Ex- rm azureclass1
+
+cd ..	: move 1 step backward
+
+rm -rf	: remove directory/folder
+	Ex- rm -rf azure azuretraining
+
+
+pwd : present working directory
+
+Move 2 steps backward:
+----------------------
+ex: cd a/b/c/d
+cd ../.. : move from d to b
+
+cd (or) cd ~ : from any path to home path
+
+Ubuntu:
+-------
+replace "yum" with "apt"
+
+
+
+
+
+
+
+
+
+
